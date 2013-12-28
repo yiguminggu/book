@@ -13,11 +13,20 @@
 		8090C60B186EB4CB00455C99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8090C609186EB4CB00455C99 /* InfoPlist.strings */; };
 		8090C60D186EB4CB00455C99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8090C60C186EB4CB00455C99 /* main.m */; };
 		8090C611186EB4CB00455C99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8090C610186EB4CB00455C99 /* AppDelegate.m */; };
-		8090C613186EB4CB00455C99 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8090C612186EB4CB00455C99 /* Default.png */; };
-		8090C615186EB4CB00455C99 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8090C614186EB4CB00455C99 /* Default@2x.png */; };
-		8090C617186EB4CB00455C99 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8090C616186EB4CB00455C99 /* Default-568h@2x.png */; };
 		8090C61A186EB4CB00455C99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8090C619186EB4CB00455C99 /* ViewController.m */; };
 		8090C61D186EB4CB00455C99 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8090C61B186EB4CB00455C99 /* ViewController.xib */; };
+		8090C625186EB53800455C99 /* BookIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8090C624186EB53800455C99 /* BookIndex.m */; };
+		8090C629186EB77100455C99 /* BookContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8090C628186EB77000455C99 /* BookContent.m */; };
+		8090C62D186EB92F00455C99 /* BookContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8090C62B186EB92F00455C99 /* BookContentViewController.m */; };
+		8090C62E186EB92F00455C99 /* BookContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8090C62C186EB92F00455C99 /* BookContentViewController.xib */; };
+		8090C634186EB9B500455C99 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8090C633186EB9B500455C99 /* libsqlite3.dylib */; };
+		8090C638186EBAB600455C99 /* example_book.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 8090C637186EBAB600455C99 /* example_book.sqlite3 */; };
+		8090C63B186EBB0200455C99 /* SQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8090C63A186EBB0200455C99 /* SQLiteHelper.m */; };
+		8090C63E186EBDF800455C99 /* BookDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8090C63D186EBDF800455C99 /* BookDB.m */; };
+		8090C640186F03B700455C99 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8090C63F186F03B700455C99 /* Default.png */; };
+		8090C642186F03BC00455C99 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8090C641186F03BC00455C99 /* Default-568h@2x.png */; };
+		8090C644186F044F00455C99 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8090C643186F044F00455C99 /* Icon.png */; };
+		8090C646186F045400455C99 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8090C645186F045400455C99 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +40,26 @@
 		8090C60E186EB4CB00455C99 /* book-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "book-Prefix.pch"; sourceTree = "<group>"; };
 		8090C60F186EB4CB00455C99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8090C610186EB4CB00455C99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8090C612186EB4CB00455C99 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8090C614186EB4CB00455C99 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		8090C616186EB4CB00455C99 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8090C618186EB4CB00455C99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8090C619186EB4CB00455C99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8090C61C186EB4CB00455C99 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8090C623186EB53800455C99 /* BookIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookIndex.h; sourceTree = "<group>"; };
+		8090C624186EB53800455C99 /* BookIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookIndex.m; sourceTree = "<group>"; };
+		8090C627186EB77000455C99 /* BookContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookContent.h; sourceTree = "<group>"; };
+		8090C628186EB77000455C99 /* BookContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookContent.m; sourceTree = "<group>"; };
+		8090C62A186EB92F00455C99 /* BookContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookContentViewController.h; sourceTree = "<group>"; };
+		8090C62B186EB92F00455C99 /* BookContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookContentViewController.m; sourceTree = "<group>"; };
+		8090C62C186EB92F00455C99 /* BookContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookContentViewController.xib; sourceTree = "<group>"; };
+		8090C633186EB9B500455C99 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8090C637186EBAB600455C99 /* example_book.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = example_book.sqlite3; sourceTree = "<group>"; };
+		8090C639186EBB0200455C99 /* SQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteHelper.h; sourceTree = "<group>"; };
+		8090C63A186EBB0200455C99 /* SQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteHelper.m; sourceTree = "<group>"; };
+		8090C63C186EBDF800455C99 /* BookDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDB.h; sourceTree = "<group>"; };
+		8090C63D186EBDF800455C99 /* BookDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDB.m; sourceTree = "<group>"; };
+		8090C63F186F03B700455C99 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8090C641186F03BC00455C99 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8090C643186F044F00455C99 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8090C645186F045400455C99 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8090C634186EB9B500455C99 /* libsqlite3.dylib in Frameworks */,
 				8090C601186EB4CB00455C99 /* UIKit.framework in Frameworks */,
 				8090C603186EB4CB00455C99 /* Foundation.framework in Frameworks */,
 				8090C605186EB4CB00455C99 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +97,7 @@
 		8090C5FF186EB4CB00455C99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8090C633186EB9B500455C99 /* libsqlite3.dylib */,
 				8090C600186EB4CB00455C99 /* UIKit.framework */,
 				8090C602186EB4CB00455C99 /* Foundation.framework */,
 				8090C604186EB4CB00455C99 /* CoreGraphics.framework */,
@@ -89,6 +114,17 @@
 				8090C619186EB4CB00455C99 /* ViewController.m */,
 				8090C61B186EB4CB00455C99 /* ViewController.xib */,
 				8090C607186EB4CB00455C99 /* Supporting Files */,
+				8090C623186EB53800455C99 /* BookIndex.h */,
+				8090C624186EB53800455C99 /* BookIndex.m */,
+				8090C627186EB77000455C99 /* BookContent.h */,
+				8090C628186EB77000455C99 /* BookContent.m */,
+				8090C62A186EB92F00455C99 /* BookContentViewController.h */,
+				8090C62B186EB92F00455C99 /* BookContentViewController.m */,
+				8090C62C186EB92F00455C99 /* BookContentViewController.xib */,
+				8090C639186EBB0200455C99 /* SQLiteHelper.h */,
+				8090C63A186EBB0200455C99 /* SQLiteHelper.m */,
+				8090C63C186EBDF800455C99 /* BookDB.h */,
+				8090C63D186EBDF800455C99 /* BookDB.m */,
 			);
 			path = book;
 			sourceTree = "<group>";
@@ -96,13 +132,15 @@
 		8090C607186EB4CB00455C99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8090C637186EBAB600455C99 /* example_book.sqlite3 */,
 				8090C608186EB4CB00455C99 /* book-Info.plist */,
 				8090C609186EB4CB00455C99 /* InfoPlist.strings */,
 				8090C60C186EB4CB00455C99 /* main.m */,
 				8090C60E186EB4CB00455C99 /* book-Prefix.pch */,
-				8090C612186EB4CB00455C99 /* Default.png */,
-				8090C614186EB4CB00455C99 /* Default@2x.png */,
-				8090C616186EB4CB00455C99 /* Default-568h@2x.png */,
+				8090C63F186F03B700455C99 /* Default.png */,
+				8090C643186F044F00455C99 /* Icon.png */,
+				8090C641186F03BC00455C99 /* Default-568h@2x.png */,
+				8090C645186F045400455C99 /* Icon@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,10 +197,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8090C60B186EB4CB00455C99 /* InfoPlist.strings in Resources */,
-				8090C613186EB4CB00455C99 /* Default.png in Resources */,
-				8090C615186EB4CB00455C99 /* Default@2x.png in Resources */,
-				8090C617186EB4CB00455C99 /* Default-568h@2x.png in Resources */,
 				8090C61D186EB4CB00455C99 /* ViewController.xib in Resources */,
+				8090C62E186EB92F00455C99 /* BookContentViewController.xib in Resources */,
+				8090C638186EBAB600455C99 /* example_book.sqlite3 in Resources */,
+				8090C640186F03B700455C99 /* Default.png in Resources */,
+				8090C642186F03BC00455C99 /* Default-568h@2x.png in Resources */,
+				8090C644186F044F00455C99 /* Icon.png in Resources */,
+				8090C646186F045400455C99 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +217,11 @@
 				8090C60D186EB4CB00455C99 /* main.m in Sources */,
 				8090C611186EB4CB00455C99 /* AppDelegate.m in Sources */,
 				8090C61A186EB4CB00455C99 /* ViewController.m in Sources */,
+				8090C625186EB53800455C99 /* BookIndex.m in Sources */,
+				8090C629186EB77100455C99 /* BookContent.m in Sources */,
+				8090C62D186EB92F00455C99 /* BookContentViewController.m in Sources */,
+				8090C63B186EBB0200455C99 /* SQLiteHelper.m in Sources */,
+				8090C63E186EBDF800455C99 /* BookDB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +307,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "book/book-Prefix.pch";
 				INFOPLIST_FILE = "book/book-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +322,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "book/book-Prefix.pch";
 				INFOPLIST_FILE = "book/book-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
